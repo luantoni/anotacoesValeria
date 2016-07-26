@@ -1,0 +1,15 @@
+GULP
+
+Todos os métodos que temos em Gulp são: .task(), .src(), .watch(), .dest(), .parallel(), and pipe().
+
+Task: Este é o método de entrada, através dele serão informados um nome e uma função que nada mais é do que o código que será executado para a tarefa.
+
+Src: Através desse método escolhemos o arquivo ou arquivos que deverão ser modificados após a execução da tarefa.
+
+Watch: Como o nome já fala, este é um método que fica assistindo determinados arquivos para que de forma automática execute alguma tarefa. 
+
+Dest: Esse é o método que informa o destino onde o arquivo modificado residirá.
+
+Pipe: Talvez o mais importante método aqui, através dele executamos todos os processos necessários da tarefa sem que tenhamos que esperar a finalização de cada processo e assim montar uma cadeia de processos na ordem que queremos.
+
+Parallel and Series: Métodos utilizados caso você tenha que executar processos em paralelo.

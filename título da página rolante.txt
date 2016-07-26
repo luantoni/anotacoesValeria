@@ -1,0 +1,8 @@
+message = " Teste de requisição - ";
+position = 0;
+delay = 500;//in millisecond
+function slide_title() {
+    document.title = message.substring(position, message.length) + message.substring(0, position); position++;
+    if (position > message.length) position = 0
+}
+window.setInterval("slide_title()",delay);

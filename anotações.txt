@@ -1,0 +1,34 @@
+	GIT:
+
+Console:
+--> pwd -localiza
+--> cd - vai para
+--> ls - identifica o que tem dentro da pasta
+--> push - envio do local para o remoto
+--> origin - para onde ta indo
+--> master 
+--> git diff - mostra o que foi alterado
+--> git add
+--> git commit
+
+
+<br/> - quebra de linha
+&nbsp;	 - espaço
+
+
+Commit:
+- git add .
+- git commit -m "nome"
+- git push -u origin master
+- git status 	--> para conferir
+
+
+Gulp no console:
+caso o comando gulp não funcione: node_modules\.bin\gulp
+
+Apagar espaços em branco:
+trim();
+trimleft();
+trimright();
+
+<!-- html -->

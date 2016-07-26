@@ -1,0 +1,27 @@
+Issues:
+	Acrescentamos:
+		Função 'editar' #1 ------------------------------- l. 164
+		Função 'ajax' #2 -------------------------------------- l. 98
+		Procurar produto por 'ID' #3 ----------------------- l. 21 HTML
+			l. 138 - BotaoPesquisar
+			l. 143 - BotaoBuscar
+			l. 196  em diante - function buscar(codigo) e suas consequências
+		Variável que contem as mensagens - mensagens de aviso e confirmação #8 ----------- l. 3
+		Confirmação edição e exclusão #12 ---------- l. 157, 168 e 182
+	Corrigimos:
+		Somente 2 opções em 'Status' - inclusão do select  #4 - l. 38 HTML
+			CaixaStatus ------------------ l. 64, 70 e 78
+		Adicionando produto com caixa em branco - se diferente de vazio continua, senão alert #5 ------------------------ l. 167
+		Somente uma URL - antes tinha uma com product  e outra com product/ sendo que podia ser usado só a product/ - #6 ------------------ l. 2
+		Botões desabilitados - exibir botões apenas no momento em que estes são necessários - #9 --------- function esconde e mostra - function cliques
+		Números e virgulas/pontos no 'Estoque' - campo estoque aceita valores decimais - #10 ---------- funcoes l. 39...55 / chamada l. 11-13
+		Limpar a tela quando item for excluido #11 ------------------- l. 180, 109
+		Alert's - ficavam repetindo várias vezes #13
+
+#7 - Marcelo explicou
+
+Outras correções:
+	Função inicio ------------- l. 21
+	Função esconde ---------- l. 26
+	Função mostra ------------ l. 32
+	Layout
